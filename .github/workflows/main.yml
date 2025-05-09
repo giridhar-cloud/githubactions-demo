@@ -1,0 +1,14 @@
+name: CI
+
+on:
+ branches:
+  - main
+
+ jobs:
+   build:
+   name: build job
+   runs-on: ubuntu-latest
+   uses: action/checkout@v2
+ name: Run a one-line script
+   run: echo " Hello world"
+  
